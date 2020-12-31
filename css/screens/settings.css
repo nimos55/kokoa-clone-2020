@@ -1,0 +1,27 @@
+.settings-setting {
+  padding: 20px 0;
+  border-bottom: 1px solid ghostwhite;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings-setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+.settings-setting__column:last-child {
+  color: var(--color-grey);
+}
+.settings-list__1 {
+  border-bottom: var(--main-border);
+  padding-bottom: 15px;
+}
+.settings-setting__column {
+  display: flex;
+  align-items: center;
+}
+.settings-setting__column .badge {
+  margin: 0px 10px;
+}
